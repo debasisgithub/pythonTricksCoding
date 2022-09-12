@@ -17,3 +17,6 @@ more cleaner code
 '''
 def pythonicGreeting(userid):
   return 'Hi {}!'.format(name_for_userid.get(userid,', key not found'))
+
+greeting(588)
+pythonicGreeting(5690)
